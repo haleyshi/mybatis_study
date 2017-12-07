@@ -1,0 +1,19 @@
+server:
+  port: 9092
+
+# Data Source 1
+ds1:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test1?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 124578
+    driverClassName: com.mysql.jdbc.Driver
+
+# Data Source 2
+ds2:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test2?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 124578
+    driverClassName: com.mysql.jdbc.Driver
+    
