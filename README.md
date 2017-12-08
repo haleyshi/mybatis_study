@@ -40,4 +40,7 @@ http://localhost:9091/api/city?cityName=Guangzhou
 
 http://localhost:9092/api/user?id=1
 http://localhost:9092/api/city?cityName=Guangzhou
-    
+
+## MyBatis + MySQL Data Source + Redis Cache
+
+http://localhost:9093/api/city/2
