@@ -51,7 +51,7 @@ public class CityServiceImpl implements CityService {
 		
 		// 插入缓存
         operations.set(key, city, 10, TimeUnit.SECONDS);
-        LOGGER.info("CityServiceImpl.findCityById() : 城市插入缓存 >> " + city.toString());
+        LOGGER.info("CityServiceImpl.findCityById() : 城市插入缓存 >> " + key + ", " + city.toString());
 
 		return city;
 	}
